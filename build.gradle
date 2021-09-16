@@ -46,7 +46,8 @@ publishing {
 }
 
 dependencies {
-    implementation 		'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 		'org.springframework.boot:spring-boot-starter-web'
+    compileOnly         'org.springframework.boot:spring-boot-starter-data-jpa'
     compileOnly         'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation  'org.junit.jupiter:junit-jupiter-api:5.7.0'
